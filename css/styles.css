@@ -208,7 +208,6 @@ button:hover {
 	margin:15px 0 20px;	
 }
 
-
 .about-images div img {
     width:100%;
     -moz-box-shadow:2px 2px 6px #555;
@@ -310,77 +309,5 @@ footer .fa {
 	color:#6c6c6c;
 }
 
-/* tablet  */
-@media all and (min-width: 600px) {
-
-	header, footer, .about-images, .rentals {
-		flex-direction:row;
-		justify-content:space-between;
-		text-align:left;
-	}
-
-	.header-wrapper, header {
-		height:55px;
-	}
-
-	.logo {
-		margin-bottom:0px;
-	}
-
-	.hero-image {
-		margin-top:55px;
-	}
-
-	.hero-second-line {
-		font: 5rem/5rem 'pacificoregular', serif;
-	}
-
-	.about-section {
-		width: 100%;
-		margin: 0px auto;
-	}
-
-	.about-images, .rentals, .location-section {
-		margin:45px 0 0 0;
-	}
-
-	.about-images div img {
-		width:97%;
-	}
-
-	.rentals-description, .rental-price-table {
-		width:50%;
-	}
-
-	.rentals-description {
-		padding: 0 35px 0 0;
-		order:1;
-	}
-
-	footer li {
-		display:block;
-	}
-
-	footer a span {
-		display:inline;
-	}
-}
-
-/* desktop  */
-@media all and (min-width: 1140px) {
-
-	.header-wrapper, header {
-		height:71px;
-	}
-
-	.hero-image {
-		margin-top:71px;
-	}
-
-	.about-section {
-		width:60%;
-	}
-
-}
 
 
