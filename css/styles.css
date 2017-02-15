@@ -310,7 +310,7 @@ footer .fa {
 }
 
 /* tablet  */
-@media all and (min-width: 8å00px) {
+@media all and (min-width: 800px) {
 
 	header, footer, .about-images, .rentals {
 		flex-direction:row;
