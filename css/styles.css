@@ -93,6 +93,8 @@ header {
 	-ms-flex-direction:column;
 	-webkit-flex-direction:column;
 	flex-direction: column;
+	-webkit-box-align:center;
+     -ms-flex-align:center;
 	align-items:center;
 	justify-content:space-around;
 }
@@ -145,6 +147,8 @@ nav ul li {
 	-ms-flex-direction:column;
 	-webkit-flex-direction:column;
 	flex-direction:column;
+	-webkit-box-align:center;
+     -ms-flex-align:center;
 	align-items:center;
 	color:#ffffff;
 	text-align:center;
